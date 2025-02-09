@@ -92,5 +92,29 @@ export const RESUME_DATA = {
         href: "https://learn-sync-v1.vercel.app",
       },
     },
+    {
+      "title": "MovieReRecommend",
+      "techStack": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "TMDb API",
+        "Redux Toolkit",
+        "Framer Motion",
+        "React Router",
+        "Firebase",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Vercel"
+      ],
+      "description":
+        "MovieReRecommend is a smart movie recommendation platform that helps users discover personalized movie suggestions based on their preferences. It integrates TMDb API for real-time data, utilizes Redux Toolkit for state management, and provides a smooth UI experience with Tailwind CSS and Framer Motion.",
+
+      "link": {
+        "label": "MovieReRecommend on GitHub",
+        "href": "https://github.com/Kane-dylan/MovieReRecommend"
+      }
+    }
   ],
 } as const;
