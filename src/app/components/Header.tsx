@@ -158,7 +158,7 @@ export function Header() {
           locationLink={RESUME_DATA.locationLink}
         />
 
-        <ContactButtons
+        {/* <ContactButtons
           contact={RESUME_DATA.contact}
           personalWebsiteUrl={RESUME_DATA.personalWebsiteUrl}
         />
@@ -166,7 +166,7 @@ export function Header() {
         <PrintContact
           contact={RESUME_DATA.contact}
           personalWebsiteUrl={RESUME_DATA.personalWebsiteUrl}
-        />
+        /> */}
       </div>
 
       <Avatar className="size-28" aria-hidden="true">
