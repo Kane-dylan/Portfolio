@@ -1,9 +1,9 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
-import  {ProfilePhoto}  from "@/images/logos";
+
 export const RESUME_DATA = {
   name: "Kiran Das",
   initials: "KD",
-  location: "Tarakeswar, Hooghly, West Bengal",
+  location: "Kolkata, West Bengal",
   locationLink: "https://maps.app.goo.gl/QtgJmVtkNcqkjMVr9",
   about:
     "I am a junior frontend developer passionate about building interactive, accessible, and efficient user interfaces.",
@@ -55,7 +55,7 @@ export const RESUME_DATA = {
     "Bash",
     "PowerShell",
     "Figma",
-    "Vim/Nvim"
+    "Vim"
   ],
   projects: [
     {
