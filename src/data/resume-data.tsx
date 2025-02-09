@@ -38,7 +38,18 @@ export const RESUME_DATA = {
       end: "2026",
     },
   ],
-  work: [], // No professional work experience as of now
+  work: [
+    {
+      company: "NA",
+      link: "NA",
+      badges: ["NA"],
+      title: "NA",
+      start: "NA",
+      end: "NA",
+      description:
+        "NA",
+    },
+  ], // No professional work experience as of now
   skills: [
     "HTML",
     "CSS",
