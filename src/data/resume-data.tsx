@@ -9,6 +9,7 @@ export const RESUME_DATA = {
     "I am a junior frontend developer passionate about building interactive, accessible, and efficient user interfaces.",
   summary: "Junior Frontend Developer with hands-on experience in building modern and responsive web applications using React, Tailwind CSS, and Redux. Adept at learning new technologies and committed to continuous professional growth.",
   avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQHZCN4Nr4Y7bQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711535117439?e=1744848000&v=beta&t=PTow23Pd-lGs6wHePzv7bQ9vhsQs1aCKbiEq_brp8Vg",
+  personalWebsiteUrl: "",
   contact: {
     email: "cool.kdtech1234@gmail.com",
     tel: "+9832234532",
@@ -63,8 +64,8 @@ export const RESUME_DATA = {
   ],
   platforms: [
     "VS Code",
-    "Bash",
     "PowerShell",
+    "Bash",
     "Figma",
     "Vim"
   ],

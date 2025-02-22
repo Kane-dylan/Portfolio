@@ -38,17 +38,17 @@ export const metadata: Metadata = {
  * Transform social links for command menu
  */
 function getCommandMenuLinks() {
-  // const links = [];
+  const links = [];
 
-  // if (RESUME_DATA.personalWebsiteUrl) {
-  //   links.push({
-  //     url: RESUME_DATA.personalWebsiteUrl,
-  //     title: "Personal Website",
-  //   });
-  // }
+  if (RESUME_DATA.personalWebsiteUrl) {
+    links.push({
+      url: RESUME_DATA.personalWebsiteUrl,
+      title: "Personal Website",
+    });
+  }
 
   return [
-    // ...links,
+    ...links,
     ...RESUME_DATA.contact.social.map((socialMediaLink) => ({
       url: socialMediaLink.url,
       title: socialMediaLink.name,

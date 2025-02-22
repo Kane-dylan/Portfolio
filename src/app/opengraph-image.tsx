@@ -65,7 +65,7 @@ export default async function Image() {
           >
             {RESUME_DATA.about}
           </div>
-          {/* <div
+          <div
             style={{
               display: "flex",
               marginTop: "2rem",
@@ -77,7 +77,7 @@ export default async function Image() {
                 {RESUME_DATA.personalWebsiteUrl}
               </div>
             )}
-          </div> */}
+          </div>
         </div>
       </div>
     ),

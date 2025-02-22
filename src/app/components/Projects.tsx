@@ -30,12 +30,12 @@ function ProjectLink({ title, link }: ProjectLinkProps) {
         href={link}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-1 hover:underline"
+        className="inline-flex items-center gap-2 hover:underline"
         aria-label={`${title} project (opens in new tab)`}
       >
         {title}
         <span
-          className="size-1 rounded-full bg-green-500"
+          className="size-2 rounded-full bg-teal-500"
           aria-label="Active project indicator"
         />
       </a>
