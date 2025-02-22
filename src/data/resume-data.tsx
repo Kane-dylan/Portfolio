@@ -102,9 +102,7 @@ export const RESUME_DATA = {
         "Redux Toolkit",
         "Framer Motion",
         "React Router",
-        "Firebase",
         "Node.js",
-        "Express",
         "MongoDB",
         "Vercel"
       ],
@@ -115,6 +113,25 @@ export const RESUME_DATA = {
         "label": "MovieReRecommend on GitHub",
         "href": "https://github.com/Kane-dylan/MovieReRecommend"
       }
+    },
+    {
+      "title": "LinkCraft",
+      "techStack": [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "Shadcn-UI",
+        "React Router",
+        "Supabase",
+        "Node.js",
+        "Vercel"
+      ],
+      "description": "LinkCraft is a powerful and customizable link management platform that allows users to create, organize, and track links efficiently. It leverages Redux Toolkit for state management, ensures a seamless UI with Tailwind CSS and Framer Motion, and provides real-time database capabilities with Firebase and MongoDB.",
+      "link": {
+        "label": "LinkCraft on GitHub",
+        "href": "https://github.com/Kane-dylan/LinkCraft"
+      }
     }
+
   ],
 } as const;
