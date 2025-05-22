@@ -2,6 +2,8 @@ import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { RESUME_DATA } from "@/data/resume-data";
+import { PortfolioIcon } from "@/components/icons";
+import { LocationIcon } from "@/components/icons/LocationIcon";
 
 interface LocationLinkProps {
   location: typeof RESUME_DATA.location;
@@ -18,7 +20,7 @@ function LocationLink({ location, locationLink }: LocationLinkProps) {
         rel="noopener noreferrer"
         aria-label={`Location: ${location}`}
       >
-        <GlobeIcon className="size-3" aria-hidden="true" />
+        <LocationIcon className="size-3" aria-hidden="true" />
         {location}
       </a>
     </p>
@@ -61,7 +63,7 @@ function ContactButtons({ contact, personalWebsiteUrl }: ContactButtonsProps) {
       {personalWebsiteUrl && (
         <SocialButton
           href={personalWebsiteUrl}
-          icon={GlobeIcon}
+          icon={PortfolioIcon}
           label="Personal website"
         />
       )}

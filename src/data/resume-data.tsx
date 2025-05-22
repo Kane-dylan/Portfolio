@@ -1,15 +1,16 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { PortfolioIcon } from "@/components/icons/PortfolioIcon";
 
 export const RESUME_DATA = {
   name: "Kiran Das",
   initials: "KD",
-  location: "Kolkata, West Bengal",
+  location: "Tarakeswar, Hooghly, West Bengal",
   locationLink: "https://maps.app.goo.gl/QtgJmVtkNcqkjMVr9",
   about:
     "I am a junior frontend developer passionate about building interactive, accessible, and efficient user interfaces.",
   summary: "Junior Frontend Developer with hands-on experience in building modern and responsive web applications using React, Tailwind CSS, and Redux. Adept at learning new technologies and committed to continuous professional growth.",
-  avatarUrl: "https://media.licdn.com/dms/image/v2/D5603AQHZCN4Nr4Y7bQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711535117439?e=1744848000&v=beta&t=PTow23Pd-lGs6wHePzv7bQ9vhsQs1aCKbiEq_brp8Vg",
-  personalWebsiteUrl: "",
+  avatarUrl: "/images/portfolio-dp.jpeg",
+  personalWebsiteUrl: "https://just-kiran.vercel.app/",
   contact: {
     email: "cool.kdtech1234@gmail.com",
     tel: "+9832234532",
@@ -70,6 +71,23 @@ export const RESUME_DATA = {
     "Vim"
   ],
   projects: [
+    {
+      "title": "CookMe",
+      "techStack": [
+        "React",
+        "Tailwind CSS",
+        "Vite",
+        "Gemini API",
+        "Aceternity UI",
+        "React Router",
+        "Markdown Parser"
+      ],
+      "description": "CookMe is an AI-powered README generator that creates professional documentation from GitHub repositories. Using the Gemini API, it analyzes repos and generates well-structured markdown files with automatic tech stack detection and customizable templates.",
+      "link": {
+        "label": "CookMe on GitHub",
+        "href": "https://github.com/Kane-dylan/CookMe.git"
+      }
+    },
     {
       title: "LearnSync",
       techStack: [
