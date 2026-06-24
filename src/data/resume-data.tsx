@@ -42,16 +42,16 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "NA",
-      link: "NA",
-      badges: ["NA"],
-      title: "NA",
-      start: "NA",
-      end: "NA",
+      company: "CEERAS",
+      link: "https://www.linkedin.com/company/ceeras/",
+      badges: ["Remote"],
+      title: "Frontend Developer Intern",
+      start: "June 2025",
+      end: "Oct 2025",
       description:
-        "NA",
+        "◦ Developed and enhanced React.js application features with emphasis on performance and maintainability.◦ Integrated REST APIs and validated application data flow for reliable backend communication.◦ Performed testing and debugging to identify and resolve application issues.◦ Collaborated using Git/GitHub while following SDLC practices to deliver features on schedule.",
     },
-  ], // No professional work experience as of now
+  ],
   skills: [
     "HTML",
     "CSS",
